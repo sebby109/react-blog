@@ -1,4 +1,4 @@
-footer {
+header {
     border-radius: 50px;
     background-color: #FAA0A0;
     width: 600px;
@@ -8,8 +8,8 @@ footer {
     margin: auto;
 }
 
-img {
-    width: 40px;
-    height: 40px;
+.img {
+    width: 45px;
+    height: 45px;
     margin-left: 15px;
 }

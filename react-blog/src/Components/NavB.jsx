@@ -8,11 +8,11 @@ import { Image } from 'react-bootstrap';
 function NavB(){
     
     return (
-      <footer>
-        <a href="#"><Image src={home} /></a>
-        <a href="#"><Image src={friends} /></a>
-        <a href="#"><Image src={profile} /></a>
-      </footer>
+      <header>
+        <a href="#"><Image className='img' src={home} /></a>
+        <a href="#"><Image className='img' src={friends} /></a>
+        <a href="#"><Image className='img' src={profile} /></a>
+      </header>
     );
 }
 
