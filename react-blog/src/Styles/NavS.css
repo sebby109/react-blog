@@ -1,4 +1,15 @@
-#nBar {
+footer {
     border-radius: 50px;
-    background-image: linear-gradient(#FAA0A0, #FAA0A0);
+    background-color: #FAA0A0;
+    width: 600px;
+    height: 50px;
+    position: sticky;
+    inset: 0;
+    margin: auto;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
 }
