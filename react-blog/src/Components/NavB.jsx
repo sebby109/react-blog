@@ -9,7 +9,7 @@ function NavB(){
     
     return (
       <header>
-        <a href="#"><Image className='img' src={home} /></a>
+        <a href="/"><Image className='img' src={home} /></a>
         <a href="#"><Image className='img' src={friends} /></a>
         <a href="#"><Image className='img' src={profile} /></a>
       </header>
