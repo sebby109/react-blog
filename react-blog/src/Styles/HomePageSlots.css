@@ -1,28 +1,33 @@
 .parent {
-    width: 100px;
+    position: relative;
     background-color: #ffd1dc;
     margin-top: 30px;
     float: left;
     margin-left: 20%;
+    width: 13%;
 }
 
 .card {
     position: relative;
     background-color: #AEC6CF;
-    width: 210px;
-    height: 300px;
+    width: 90%;
+    height: 20%;
     border-radius: 20px;
     text-align: center;
     display: flex;
     justify-content: center;
-    margin-left: 20px;
     box-shadow: 0 4px 8px 0 white, 0 6px 10px 0 white;
 }
 
+@media screen and (max-width: 1000px) {
+    .card {
+      display: none !important;
+    }
+  }
+
 .card img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 100%;
     margin-top: 10px;
     margin-bottom: 30px;
 
@@ -35,11 +40,11 @@
 
 label {
     display: block;
-    width: 100px;
+    width: 50%;
     background: white;
     cursor: pointer;
     border-radius: 30px;
-    margin-left: 25px;
+    margin-left: 25%;
 }
 
 .post {
@@ -47,7 +52,7 @@ label {
     background-color: white;
     margin-top: 20px;
     border-radius: 20px;
-    width: 250px;
+    width: 100%;
     height: 180px;
     background-color: #AEC6CF;
     box-shadow: 0 4px 8px 0 white, 0 6px 10px 0 white;
@@ -71,3 +76,9 @@ label {
     color: black;
     resize: none;
 }
+
+@media screen and (max-width: 1000px) {
+    .post{
+      display: none !important;
+    }
+  }

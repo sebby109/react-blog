@@ -12,20 +12,22 @@ function HomePageSlots(){
         profilepic.src = URL.createObjectURL(inputfile.files[0]);
     }
 
+    // save for updating in profile settings, this updates profile pic
+    //                <label for="input-file" >Update Image</label>
+    //<input type='file' accept='image/jpeg. image/png, image/jpg' id="input-file" onChange={handleUpload}/>
     return (
         <div className="parent">
             <div className='card'>
                 Name
                 <Image src={generic} id="profile-pic" />
-                <label for="input-file" >Update Image</label>
-                <input type='file' accept='image/jpeg. image/png, image/jpg' id="input-file" onChange={handleUpload}/>
             </div>
             
             <div className='post'>
-            <Image src={post} /> 
-            <br />
-            <textarea type='text' id='input-text' />
+                <Image src={post} /> 
+                <br />
+                <textarea type='text' id='input-text' />
             </div>
+
         </div>
     );
 }
