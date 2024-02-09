@@ -1,5 +1,6 @@
 .parent {
-    position: relative;
+    position: sticky;
+    inset: 0;
     background-color: #ffd1dc;
     margin-top: 30px;
     float: left;

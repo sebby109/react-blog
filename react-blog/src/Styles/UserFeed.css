@@ -1,0 +1,8 @@
+
+.infinite-div {
+    background-color: #ffd1dc;
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
