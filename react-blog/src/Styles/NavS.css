@@ -1,7 +1,14 @@
+
+.nav-parent {
+    position: sticky;
+    inset: 0;
+    margin: auto;
+}
+
 header {
     border-radius: 50px;
     background-color: #FAA0A0;
-    width: 40%;
+    width: 35%;
     height: 70%;
     position: sticky;
     inset: 0;
@@ -13,3 +20,40 @@ header {
     height: 45px;
     margin-left: 15px;
 }
+
+.small-search-box {
+    position: sticky;
+    background-color: white;
+    border-radius: 20px;
+    width: 35%;
+    height: 30%;
+    background-color: #AEC6CF;
+    box-shadow: 0 4px 8px 0 white, 0 6px 10px 0 white;
+    inset: 0;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .small-search-box textarea {
+
+    background-color: pink;
+    border: none;
+    border-radius: 10px;
+    height: 30%;
+    width: 90%;
+    color: black;
+    resize: none;
+}
+
+.small-search-box img {
+    width: 50px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+    .small-search-box {
+      display: none !important;
+    }
+  }

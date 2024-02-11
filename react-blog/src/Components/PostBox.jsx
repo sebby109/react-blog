@@ -13,7 +13,7 @@ function PostBox(props) {
                 <Image className='interact-icons' src={repost} />
                 <Image className='interact-icons' src={comment} />
                 <Image className='interact-icons' src={heart} />
-                <textarea type="text" readOnly>
+                <textarea type="text" disabled readOnly>
                 </textarea>
         </div>
     );
