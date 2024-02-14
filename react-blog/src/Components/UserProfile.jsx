@@ -1,7 +1,7 @@
 import NavB from "./NavB";
 import HomePageSlots from "./HomePageSlots";
 import UserFeed from './UserFeed';
-import FriendsList from "./FriendsList";
+import ProfileData from "./ProfileData";
 
 function UserProfile(){
 
@@ -9,7 +9,7 @@ function UserProfile(){
         <div>
             <NavB />
             <HomePageSlots />
-            <FriendsList />
+            <ProfileData />
             <UserFeed />
         </div>
     );

@@ -1,0 +1,80 @@
+
+.friends-list-parent {
+    position: sticky;
+    inset: 0;
+    float: right;
+    margin-right: 10%;
+}
+
+.friends-child-1{ 
+    background-color: #AEC6CF;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 white, 0 6px 10px 0 white;
+    margin-top: 30px;
+}
+
+h4 {
+    margin-top: 10px;
+    font-family: Lucida Handwriting;
+}
+
+.friend-number {
+    margin-left: 5px;
+}
+
+.friends-list-parent .img-1 {
+    position: absolute;
+    width: 30%;
+    height: 70%;
+    bottom: 0;
+    left: 0;
+}
+.friends-list-parent .img-2 {
+    position: absolute;
+    width: 30%;
+    height: 70%;
+    bottom: 0;
+}
+.friends-list-parent .img-3 {
+    position: absolute;
+    width: 30%;
+    height: 70%;
+    bottom: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .friends-list-parent{
+      display: none !important;
+    }
+  }
+
+.friends-child-2{ 
+    background-color: #AEC6CF;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 white, 0 6px 10px 0 white;
+    margin-top: 30px;
+}
+
+.friends-child-3{ 
+    background-color: #AEC6CF;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 white, 0 6px 10px 0 white;
+    margin-top: 30px;
+    position: relative;
+}
