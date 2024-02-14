@@ -1,6 +1,6 @@
 import '../Styles/HomePageSlots.css';
 import { Image } from 'react-bootstrap';
-import generic from '../Images/icons8-customer-50.png';
+import generic from '../Images/icons8-male-user-94.png';
 import post from '../Images/icons8-post-68.png';
 
 function HomePageSlots(){

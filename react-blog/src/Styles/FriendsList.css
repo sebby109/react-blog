@@ -1,0 +1,15 @@
+
+.friends-list-parent {
+    position: sticky;
+    background-color: #AEC6CF;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 white, 0 6px 10px 0 white;
+    float: right;
+    margin-right: 10%;
+    margin-top: 30px;
+}

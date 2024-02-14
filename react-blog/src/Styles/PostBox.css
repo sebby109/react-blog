@@ -3,7 +3,6 @@
 .post-parent {
     margin-top: 40px;
     width: 400px;
-    height: 200px;
     float: right;
     background-color: #AEC6CF;
     box-shadow: 0 4px 8px 0 white, 0 6px 10px 0 white;
@@ -43,4 +42,14 @@
     width: 20px;
     height: 20px;
 
+}
+
+.post-parent p {
+    margin: 30px;
+    margin-top: 70px;
+}
+
+span {
+    cursor: pointer;
+    color: blue;
 }
