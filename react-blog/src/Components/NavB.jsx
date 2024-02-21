@@ -17,7 +17,7 @@ function NavB(){
       <div className='nav-parent'>
         <header>
           <a href="/"><Image className='img' src={home} /></a>
-          <a href="#"><Image className='img' src={friends} /></a>
+          <a href="/photos"><Image className='img' src={friends} /></a>
           <a href="/profile"><Image className='img' src={profile} /></a>
         </header>
         <div className='small-search-box'>

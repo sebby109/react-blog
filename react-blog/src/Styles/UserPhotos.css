@@ -1,0 +1,11 @@
+
+
+.parent-photos {
+    background-color: aliceblue;
+    width:80%;
+    position: sticky;
+    inset: 0;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}

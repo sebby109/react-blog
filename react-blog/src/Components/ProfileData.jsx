@@ -16,17 +16,24 @@ function ProfileData(){
         <div className='friends-list-parent'>
             <div className='friends-child-1'>
                 <h4>users personal data</h4>
+                <div className='description-name'>Name:</div>
+                <div className='description-bday'>Birthday:</div>
             </div>
+
             <div className='friends-child-2'>
                 <h4>photos</h4>
+                <span className='profile-span'> <u>View all</u></span>
             </div>
+
             <div className='friends-child-3' >
             <h4>Friends</h4>
             <div className='friend-number'>100</div>
+            <span className='profile-span'> <u>View all</u></span>
                 <Image src={generic} className='img-1'/>
                 <Image src={generic} className='img-2'/>
                 <Image src={generic} className='img-3'/>
             </div>
+            
         </div>
     );
 
