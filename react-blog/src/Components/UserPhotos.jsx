@@ -9,7 +9,7 @@ function UserPhotos(){
 
     return(
         <div className="parent-photos">
-            <NavB />
+            <NavB hide={true}/>
             <div className="photos-child">
                 hello
             </div>

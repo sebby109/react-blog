@@ -9,9 +9,10 @@ import post from '../Images/icons8-post-68.png';
 /**
  * navgation bar for top of pages, also shows a posting box if the screen gets too small
  * the small post box will appear ontop of feed when 1000px or less for smaller screens.
- * @returns 
+ * The if else statement is to ensure pages that do not have a feed dont show a posting box
+ * when the screen is smaller. 
  */
-function NavB(){
+function NavB(props){
     
     return (
       <div className='nav-parent'>
@@ -20,11 +21,15 @@ function NavB(){
           <a href="/photos"><Image className='img' src={friends} /></a>
           <a href="/profile"><Image className='img' src={profile} /></a>
         </header>
-        <div className='small-search-box'>
-            <Image src={post} /> 
-                <br />
-                <textarea type='text' id='input-text' />
-          </div>
+
+        {(props.hide == true) ? <></>
+         : 
+         <div className='small-search-box'>
+         <Image src={post} /> 
+             <br />
+             <textarea type='text' id='input-text' />
+       </div>
+        }
       </div>
     );
 }
