@@ -10,7 +10,7 @@ import '../Styles/ProfileData.css';
  * and users photos/ blog posts.
  * 
  */
-function ProfileData(){
+function ProfileData(props){
 
     return (
         <div className='friends-list-parent'>

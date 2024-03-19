@@ -5,6 +5,8 @@ import friends from '../Images/icons8-friends-64.png';
 import profile from '../Images/icons8-cat-profile-64.png';
 import { Image } from 'react-bootstrap';
 import post from '../Images/icons8-post-68.png';
+import { createContext, useContext } from 'react';
+
 
 /**
  * navgation bar for top of pages, also shows a posting box if the screen gets too small
@@ -13,7 +15,6 @@ import post from '../Images/icons8-post-68.png';
  * when the screen is smaller. 
  */
 function NavB(props){
-    
     return (
       <div className='nav-parent'>
         <header>
