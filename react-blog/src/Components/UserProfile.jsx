@@ -4,7 +4,8 @@ import UserFeed from './UserFeed';
 import ProfileData from "./ProfileData";
 
 function UserProfile(){
-
+    //const {loggedIn, setLoggedIn} = useContext(LoginContext);
+    //console.log(loggedIn);
     return(
         <div>
             <NavB />

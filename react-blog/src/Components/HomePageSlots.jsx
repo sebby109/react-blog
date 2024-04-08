@@ -20,11 +20,11 @@ function HomePageSlots(props){
     //<input type='file' accept='image/jpeg. image/png, image/jpg' id="input-file" onChange={handleUpload}/>
     return (
 
-        uData ? 
-            (<div className="parent">
+
+<div className="parent">
             <div className='card'>
-                {uData ? <>{uData[0].name}</>: ''}
-                <Image src={uData[0].profile_pic} id="profile-pic" />
+                hello
+                <Image src={generic} id="profile-pic" />
             </div>
             
             <div className='post'>
@@ -32,10 +32,8 @@ function HomePageSlots(props){
                 <br />
                 <textarea type='text' id='input-text' />
             </div>
-        </div>)
-    :
+        </div>
 
-    <Spinner role="status" />
 
     );
 }
